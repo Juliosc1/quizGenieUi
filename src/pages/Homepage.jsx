@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function Homepage() {
   return (
-    <div className="container mx-auto p-4">
+    <div className="flex flex-col h-full w-full md:rounded-tl-lg overflow-auto gap-6 ">
       <h1>Homepage</h1>
       <Link to="/generator">
         <button>Ai page</button>

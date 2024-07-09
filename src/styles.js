@@ -30,6 +30,18 @@ const styles = {
   flexStart: "flex justify-start items-center",
   flexBetween: "flex justify-between items-center",
   flexEnd: "flex justify-end items-center",
+  
+  /*Image size*/
+  icon4XSmall: "w-[10px] h-[10px]",
+  icon3XSmall: "w-[14px] h-[14px]",
+  iconXXSmall: "w-[18px] h-[18px]",
+  iconXSmall: "w-[20px] h-[20px]",
+  iconSmall: "w-[24px] h-[24px]",
+  iconSmallMedium: "w-[28px] h-[28px]",
+  iconMedium: "w-[41px] h-[41px]",
+  iconLarge: "w-[50px] h-[50px]",
+  iconXl: "w-[71px] h-[71px]",
+  icon2Xl: "w-[100px] h-[100px]",
 };
 
 export default styles;
