@@ -13,7 +13,7 @@ const styles = {
   label: "text-sm",
   label2: "text-sm font-medium",
   label3: "text-sm font-semibold",
-  
+
   paragraph: "text-base",
   paragraph2: "text-base font-medium",
   paragraph3: "text-base font-semibold",
@@ -25,11 +25,11 @@ const styles = {
   subtitle4: "text-xl font-medium",
   subtitle5: "text-2xl font-medium",
 
-
   /*Flexbox*/
   flexCenter: "flex justify-center items-center",
   flexStart: "flex justify-start items-center",
   flexBetween: "flex justify-between items-center",
   flexEnd: "flex justify-end items-center",
+};
 
-}
+export default styles;
