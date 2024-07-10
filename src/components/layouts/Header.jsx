@@ -6,12 +6,10 @@ import { IoClose } from "react-icons/io5";
 
 const Header = ({ toggleSidebar, isSidebarActive }) => {
   return (
-    <div className={`${styles.flexBetween} h-20 w-full border-b px-6`}>
+    <div className={`${styles.flexBetween} h-20 w-full border-b px-8 bg-white`}>
       <p>Dashboard</p>
       <div className="flex items-center gap-3">
-        <div
-          className={`${styles.flexCenter} h-10 w-10 bg-orange-400 rounded-full`}
-        >
+        <div className={`${styles.flexCenter} h-10 w-10 bg-orange-400 rounded-full`}>
           <img src={AvatarUser} alt="userLogo" />
         </div>
 
