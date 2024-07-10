@@ -23,7 +23,7 @@ function App() {
 
 
   return (
-    <div className="flex h-screen max-w-[1535px]">
+    <div className="flex min-h-screen max-w-[1535px]">
       <Router>
         {!isMobile || isSidebarActive ? (
           <Sidebar toggleSidebar={toggleSidebar} />
